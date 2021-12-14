@@ -1,0 +1,30 @@
+module.exports = class MyClass {
+    constructor (){ 
+
+    }
+    log() {
+
+    }
+    track(){
+
+    }
+    getLog(){ 
+
+    }
+}
+"use strict"; 
+module.exports = (function(){
+    function MyClass(){
+
+    }
+    MyClass.prototype.log = function () {
+
+    };
+    MyClass.prototype.track = function () {
+
+    };
+    MyClass.prototype.getLog = function () {
+
+    };
+    return MyClass;
+}()); 
